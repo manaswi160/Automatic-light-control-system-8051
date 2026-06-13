@@ -1,0 +1,15 @@
+#include <reg51.h> 
+
+sbit LDR_SENSOR = P1^0; 
+sbit RELAY_CONTROL = P2^0; 
+
+void main() {
+    while(1) { 
+        if (LDR_SENSOR == 0) { 
+            RELAY_CONTROL = 1; 
+        } else { 
+            RELAY_CONTROL = 0; 
+        }
+    }
+}
+
