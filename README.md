@@ -1,6 +1,5 @@
 Automatic Light Control System Using LDR and Relay with 8051
 
-Project Overview
 This project implements an Automatic Light Control System using an LDR (Light Dependent Resistor), Relay, and 8051 Microcontroller. The system automatically turns ON the light in low-light conditions and turns it OFF when sufficient light is available.
 
 Components Used
